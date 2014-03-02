@@ -5,6 +5,10 @@ Sometimes it's nice to use a global event bus in your applications. This dispatc
 The dispatching controller is a *mixin* for your controllers to enhance their behavior.
 
 ``` javascript
+
+angular.module('my-module', [
+    require('angular-browserify-event-dispatcher').name
+])
 /**
  * This is how you'd use the dispatcher  
  */
