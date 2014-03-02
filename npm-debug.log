@@ -1,0 +1,129 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/opt/boxen/nodenv/versions/v0.10.26/bin/node',
+1 verbose cli   '/opt/boxen/nodenv/versions/v0.10.26/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.26
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /Users/joel/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/var/folders/r8/3sc2fzc14051j56_h9dbh5540000gn/T/npm-23089-YCgUubN_/1393802990831-0.1471142414957285/tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /var/folders/r8/3sc2fzc14051j56_h9dbh5540000gn/T/npm-23089-YCgUubN_/1393802990831-0.1471142414957285/tmp.tgz
+12 verbose folder .
+13 info prepublish angular-browserify-event-dispatcher@0.0.1
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. /Users/joel/.npm/1f1177db-tar.lock
+16 silly lockFile 7ebbd520-90831-0-1471142414957285-tmp-tgz tar:///var/folders/r8/3sc2fzc14051j56_h9dbh5540000gn/T/npm-23089-YCgUubN_/1393802990831-0.1471142414957285/tmp.tgz
+17 verbose lock tar:///var/folders/r8/3sc2fzc14051j56_h9dbh5540000gn/T/npm-23089-YCgUubN_/1393802990831-0.1471142414957285/tmp.tgz /Users/joel/.npm/7ebbd520-90831-0-1471142414957285-tmp-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 7ebbd520-90831-0-1471142414957285-tmp-tgz tar:///var/folders/r8/3sc2fzc14051j56_h9dbh5540000gn/T/npm-23089-YCgUubN_/1393802990831-0.1471142414957285/tmp.tgz
+21 silly lockFile 7ebbd520-90831-0-1471142414957285-tmp-tgz tar:///var/folders/r8/3sc2fzc14051j56_h9dbh5540000gn/T/npm-23089-YCgUubN_/1393802990831-0.1471142414957285/tmp.tgz
+22 verbose tar unpack /var/folders/r8/3sc2fzc14051j56_h9dbh5540000gn/T/npm-23089-YCgUubN_/1393802990831-0.1471142414957285/tmp.tgz
+23 silly lockFile 0e04d958-90831-0-1471142414957285-package tar:///var/folders/r8/3sc2fzc14051j56_h9dbh5540000gn/T/npm-23089-YCgUubN_/1393802990831-0.1471142414957285/package
+24 verbose lock tar:///var/folders/r8/3sc2fzc14051j56_h9dbh5540000gn/T/npm-23089-YCgUubN_/1393802990831-0.1471142414957285/package /Users/joel/.npm/0e04d958-90831-0-1471142414957285-package.lock
+25 silly lockFile 7ebbd520-90831-0-1471142414957285-tmp-tgz tar:///var/folders/r8/3sc2fzc14051j56_h9dbh5540000gn/T/npm-23089-YCgUubN_/1393802990831-0.1471142414957285/tmp.tgz
+26 verbose lock tar:///var/folders/r8/3sc2fzc14051j56_h9dbh5540000gn/T/npm-23089-YCgUubN_/1393802990831-0.1471142414957285/tmp.tgz /Users/joel/.npm/7ebbd520-90831-0-1471142414957285-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry package.json
+29 silly gunzTarPerm extractEntry README.md
+30 silly gunzTarPerm extractEntry index.js
+31 silly lockFile 0e04d958-90831-0-1471142414957285-package tar:///var/folders/r8/3sc2fzc14051j56_h9dbh5540000gn/T/npm-23089-YCgUubN_/1393802990831-0.1471142414957285/package
+32 silly lockFile 0e04d958-90831-0-1471142414957285-package tar:///var/folders/r8/3sc2fzc14051j56_h9dbh5540000gn/T/npm-23089-YCgUubN_/1393802990831-0.1471142414957285/package
+33 silly lockFile 7ebbd520-90831-0-1471142414957285-tmp-tgz tar:///var/folders/r8/3sc2fzc14051j56_h9dbh5540000gn/T/npm-23089-YCgUubN_/1393802990831-0.1471142414957285/tmp.tgz
+34 silly lockFile 7ebbd520-90831-0-1471142414957285-tmp-tgz tar:///var/folders/r8/3sc2fzc14051j56_h9dbh5540000gn/T/npm-23089-YCgUubN_/1393802990831-0.1471142414957285/tmp.tgz
+35 verbose tar pack [ '/Users/joel/.npm/angular-browserify-event-dispatcher/0.0.1/package.tgz',
+35 verbose tar pack   '/var/folders/r8/3sc2fzc14051j56_h9dbh5540000gn/T/npm-23089-YCgUubN_/1393802990831-0.1471142414957285/package' ]
+36 verbose tarball /Users/joel/.npm/angular-browserify-event-dispatcher/0.0.1/package.tgz
+37 verbose folder /var/folders/r8/3sc2fzc14051j56_h9dbh5540000gn/T/npm-23089-YCgUubN_/1393802990831-0.1471142414957285/package
+38 silly lockFile 0e04d958-90831-0-1471142414957285-package tar:///var/folders/r8/3sc2fzc14051j56_h9dbh5540000gn/T/npm-23089-YCgUubN_/1393802990831-0.1471142414957285/package
+39 verbose lock tar:///var/folders/r8/3sc2fzc14051j56_h9dbh5540000gn/T/npm-23089-YCgUubN_/1393802990831-0.1471142414957285/package /Users/joel/.npm/0e04d958-90831-0-1471142414957285-package.lock
+40 silly lockFile f1cc1b61-ent-dispatcher-0-0-1-package-tgz tar:///Users/joel/.npm/angular-browserify-event-dispatcher/0.0.1/package.tgz
+41 verbose lock tar:///Users/joel/.npm/angular-browserify-event-dispatcher/0.0.1/package.tgz /Users/joel/.npm/f1cc1b61-ent-dispatcher-0-0-1-package-tgz.lock
+42 silly lockFile 0e04d958-90831-0-1471142414957285-package tar:///var/folders/r8/3sc2fzc14051j56_h9dbh5540000gn/T/npm-23089-YCgUubN_/1393802990831-0.1471142414957285/package
+43 silly lockFile 0e04d958-90831-0-1471142414957285-package tar:///var/folders/r8/3sc2fzc14051j56_h9dbh5540000gn/T/npm-23089-YCgUubN_/1393802990831-0.1471142414957285/package
+44 silly lockFile f1cc1b61-ent-dispatcher-0-0-1-package-tgz tar:///Users/joel/.npm/angular-browserify-event-dispatcher/0.0.1/package.tgz
+45 silly lockFile f1cc1b61-ent-dispatcher-0-0-1-package-tgz tar:///Users/joel/.npm/angular-browserify-event-dispatcher/0.0.1/package.tgz
+46 silly lockFile 2099b60f-y-event-dispatcher-0-0-1-package /Users/joel/.npm/angular-browserify-event-dispatcher/0.0.1/package
+47 verbose lock /Users/joel/.npm/angular-browserify-event-dispatcher/0.0.1/package /Users/joel/.npm/2099b60f-y-event-dispatcher-0-0-1-package.lock
+48 silly lockFile 2099b60f-y-event-dispatcher-0-0-1-package /Users/joel/.npm/angular-browserify-event-dispatcher/0.0.1/package
+49 silly lockFile 2099b60f-y-event-dispatcher-0-0-1-package /Users/joel/.npm/angular-browserify-event-dispatcher/0.0.1/package
+50 verbose tar unpack /Users/joel/.npm/angular-browserify-event-dispatcher/0.0.1/package.tgz
+51 silly lockFile 14752ac3-y-event-dispatcher-0-0-1-package tar:///Users/joel/.npm/angular-browserify-event-dispatcher/0.0.1/package
+52 verbose lock tar:///Users/joel/.npm/angular-browserify-event-dispatcher/0.0.1/package /Users/joel/.npm/14752ac3-y-event-dispatcher-0-0-1-package.lock
+53 silly lockFile f1cc1b61-ent-dispatcher-0-0-1-package-tgz tar:///Users/joel/.npm/angular-browserify-event-dispatcher/0.0.1/package.tgz
+54 verbose lock tar:///Users/joel/.npm/angular-browserify-event-dispatcher/0.0.1/package.tgz /Users/joel/.npm/f1cc1b61-ent-dispatcher-0-0-1-package-tgz.lock
+55 silly gunzTarPerm modes [ '755', '644' ]
+56 silly gunzTarPerm extractEntry package.json
+57 silly gunzTarPerm extractEntry README.md
+58 silly gunzTarPerm extractEntry index.js
+59 silly lockFile 14752ac3-y-event-dispatcher-0-0-1-package tar:///Users/joel/.npm/angular-browserify-event-dispatcher/0.0.1/package
+60 silly lockFile 14752ac3-y-event-dispatcher-0-0-1-package tar:///Users/joel/.npm/angular-browserify-event-dispatcher/0.0.1/package
+61 silly lockFile f1cc1b61-ent-dispatcher-0-0-1-package-tgz tar:///Users/joel/.npm/angular-browserify-event-dispatcher/0.0.1/package.tgz
+62 silly lockFile f1cc1b61-ent-dispatcher-0-0-1-package-tgz tar:///Users/joel/.npm/angular-browserify-event-dispatcher/0.0.1/package.tgz
+63 verbose chmod /Users/joel/.npm/angular-browserify-event-dispatcher/0.0.1/package.tgz 644
+64 verbose chown /Users/joel/.npm/angular-browserify-event-dispatcher/0.0.1/package.tgz [ 501, 20 ]
+65 silly lockFile 3a52ce78- .
+66 silly lockFile 3a52ce78- .
+67 silly publish { name: 'angular-browserify-event-dispatcher',
+67 silly publish   version: '0.0.1',
+67 silly publish   description: 'Event Dispatcher for AngularJS that wraps $rootScope.$emit and $rootScope.$on for event bus that can be used by Controllers and any other actor in the application that requires eventing',
+67 silly publish   main: 'index.js',
+67 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+67 silly publish   repository:
+67 silly publish    { type: 'git',
+67 silly publish      url: 'git://github.com/joelhooks/angular-browserify-event-dispatcher.git' },
+67 silly publish   keywords: [ 'angularjs', 'browserify', 'events' ],
+67 silly publish   author: { name: 'Joel Hooks' },
+67 silly publish   license: 'MIT',
+67 silly publish   bugs: { url: 'https://github.com/joelhooks/angular-browserify-event-dispatcher/issues' },
+67 silly publish   homepage: 'https://github.com/joelhooks/angular-browserify-event-dispatcher',
+67 silly publish   readme: 'ERROR: No README data found!',
+67 silly publish   readmeFilename: 'README.md',
+67 silly publish   _id: 'angular-browserify-event-dispatcher@0.0.1',
+67 silly publish   dist: { shasum: '093ab36f87c42b0ed3cdc8fffc4e0a5425d5dfaa' },
+67 silly publish   _from: '.' }
+68 verbose url raw angular-browserify-event-dispatcher
+69 verbose url resolving [ 'https://registry.npmjs.org/',
+69 verbose url resolving   './angular-browserify-event-dispatcher' ]
+70 verbose url resolved https://registry.npmjs.org/angular-browserify-event-dispatcher
+71 info trying registry request attempt 1 at 17:29:50
+72 http PUT https://registry.npmjs.org/angular-browserify-event-dispatcher
+73 http 403 https://registry.npmjs.org/angular-browserify-event-dispatcher
+74 error publish Failed PUT 403
+75 error Error: forbidden cannot modify pre-existing version: 0.0.1
+75 error old={"name":"angular-browserify-event-dispatcher","version":"0.0.1","description":"Event Dispatcher for AngularJS that wraps $rootScope.$emit and $rootScope.$on for event bus that can be used by Controllers and any other actor in the application that requires eventing","main":"index.js","scripts":{"test":"echo \"Error: no test specified\" && exit 1"},"repository":{"type":"git","url":"git://github.com/joelhooks/angular-browserify-event-dispatcher.git"},"keywords":["angularjs","browserify","events"],"author":{"name":"Joel Hooks"},"license":"MIT","bugs":{"url":"https://github.com/joelhooks/angular-browserify-event-dispatcher/issues"},"homepage":"https://github.com/joelhooks/angular-browserify-event-dispatcher","_id":"angular-browserify-event-dispatcher@0.0.1","dist":{"shasum":"933f55e3229666c0c95cb760403fd8ee34afd0d4","tarball":"http://registry.npmjs.org/angular-browserify-event-dispatcher/-/angular-browserify-event-dispatcher-0.0.1.tgz"},"_from":".","_npmVersion":"1.4.3","_npmUser":{"name":"joelhooks","email":"joelhooks@gmail.com"},"maintainers":[{"name":"joelhooks","email":"joelhooks@gmail.com"}]}
+75 error new={"name":"angular-browserify-event-dispatcher","version":"0.0.1","description":"Event Dispatcher for AngularJS that wraps $rootScope.$emit and $rootScope.$on for event bus that can be used by Controllers and any other actor in the application that requires eventing","main":"index.js","scripts":{"test":"echo \"Error: no test specified\" && exit 1"},"repository":{"type":"git","url":"git://github.com/joelhooks/angular-browserify-event-dispatcher.git"},"keywords":["angularjs","browserify","events"],"author":{"name":"Joel Hooks"},"license":"MIT","bugs":{"url":"https://github.com/joelhooks/angular-browserify-event-dispatcher/issues"},"homepage":"https://github.com/joelhooks/angular-browserify-event-dispatcher","readme":"ERROR: No README data found!","readmeFilename":"README.md","_id":"angular-browserify-event-dispatcher@0.0.1","dist":{"shasum":"093ab36f87c42b0ed3cdc8fffc4e0a5425d5dfaa","tarball":"http://registry.npmjs.org/angular-browserify-event-dispatcher/-/angular-browserify-event-dispatcher-0.0.1.tgz"},"_from":".","_npmVersion":"1.4.3","_npmUser":{"name":"joelhooks","email":"joelhooks@gmail.com"},"maintainers":[{"name":"joelhooks","email":"joelhooks@gmail.com"}]}: angular-browserify-event-dispatcher
+75 error     at RegClient.<anonymous> (/opt/boxen/nodenv/versions/v0.10.26/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:237:14)
+75 error     at Request.self.callback (/opt/boxen/nodenv/versions/v0.10.26/lib/node_modules/npm/node_modules/request/request.js:123:22)
+75 error     at Request.EventEmitter.emit (events.js:98:17)
+75 error     at Request.<anonymous> (/opt/boxen/nodenv/versions/v0.10.26/lib/node_modules/npm/node_modules/request/request.js:893:14)
+75 error     at Request.EventEmitter.emit (events.js:117:20)
+75 error     at IncomingMessage.<anonymous> (/opt/boxen/nodenv/versions/v0.10.26/lib/node_modules/npm/node_modules/request/request.js:844:12)
+75 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+75 error     at _stream_readable.js:920:16
+75 error     at process._tickCallback (node.js:415:13)
+76 error If you need help, you may report this *entire* log,
+76 error including the npm and node versions, at:
+76 error     <http://github.com/npm/npm/issues>
+77 error System Darwin 13.0.0
+78 error command "/opt/boxen/nodenv/versions/v0.10.26/bin/node" "/opt/boxen/nodenv/versions/v0.10.26/bin/npm" "publish"
+79 error cwd /Users/joel/Code/npm_modules/angular-browserify-event-dispatcher
+80 error node -v v0.10.26
+81 error npm -v 1.4.3
+82 verbose exit [ 1, true ]
