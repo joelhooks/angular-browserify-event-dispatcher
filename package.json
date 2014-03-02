@@ -1,0 +1,24 @@
+{
+  "name": "angular-browserify-event-dispatcher",
+  "version": "0.0.1",
+  "description": "Event Dispatcher for AngularJS that wraps $rootScope.$emit and $rootScope.$on for event bus that can be used by Controllers and any other actor in the application that requires eventing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/joelhooks/angular-browserify-event-dispatcher.git"
+  },
+  "keywords": [
+    "angularjs",
+    "browserify",
+    "events"
+  ],
+  "author": "Joel Hooks",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joelhooks/angular-browserify-event-dispatcher/issues"
+  },
+  "homepage": "https://github.com/joelhooks/angular-browserify-event-dispatcher"
+}
