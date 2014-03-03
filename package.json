@@ -1,6 +1,6 @@
 {
   "name": "angular-browserify-event-dispatcher",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Event Dispatcher for AngularJS that wraps $rootScope.$emit and $rootScope.$on for event bus that can be used by Controllers and any other actor in the application that requires eventing",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,8 @@
   "keywords": [
     "angularjs",
     "browserify",
-    "events"
+    "events",
+    "browser"
   ],
   "author": "Joel Hooks",
   "license": "MIT",
